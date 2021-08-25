@@ -1,6 +1,14 @@
 package edu.eci.cvds.patterns.shapes;
 
+/**
+ * Class ShapeMain - Principal class
+ */
 public class ShapeMain {
+	
+	/**
+	 * Main method
+	 * @param args Array of strings that has the name of the figure
+	 */
     public static void main(String[] args) {
         if (args == null || args.length != 1) {
             System.err.println("Parameter of type RegularShapeType is required.");

@@ -2,10 +2,14 @@ package edu.eci.cvds.patterns;
 
 /**
  * Hello world!
- *
+ * Personalized Greeting
  */
 public class App 
 {
+	/**
+	 * Main method
+	 * @params args Array of strings with the names of the person to greet
+	 */
     public static void main( String[] args )
     {
         if (args.length==0) System.out.println( "Hello World!" );
